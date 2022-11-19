@@ -1,0 +1,109 @@
+header{
+  height: 5em;
+  border-bottom: inset rgb(235, 230, 230);
+}
+.user{
+  position: relative;
+  left: 48px;
+  bottom: -20px;
+}
+#arriba{
+  width:100%;
+  height:100%;
+  display:block;
+  font-family:Helvetica;
+  }
+#create{
+width:150px;
+margin: 1%;
+padding: 1%;
+color: grey;
+border: 2px dashed grey;
+border-radius:25px;
+}
+  #logo{
+    width:80%;
+    height:80%;
+    display:inline;
+    text-align: center;
+    }
+nav, article{
+  width:90%;
+  height:90%;
+  font-family:Helvetica;
+  display: block;
+  text-align: left;
+}
+nav{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 1%;
+}
+#primer{
+  background-color: #4484f3;
+  margin: 1px;
+}
+#segundo{
+  background-color: #33538b;
+  margin: 1px;
+}
+
+.sign, .terms, .profe{
+  text-decoration: none;
+  color:#4484f3; 
+}
+.g{
+  text-align: center;
+  color:white;
+  margin: 1px;
+  text-decoration: none;
+}
+.face{
+  text-align: center;
+  color:white;
+  margin: 1px;
+  text-decoration: none;
+}
+button{
+  border-radius:1px;
+}
+span{
+  font-size: 12px;
+  line-height: 2em;
+}
+article{
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 1%;
+}
+    #cabecera{
+      width:80%;
+      display:inline-block;
+      text-align: right;
+      position: relative;
+      bottom: 35px;
+    }
+    
+    #pie{
+      width:100%;
+      height:100%;
+      display:block;
+      font-family:Helvetica;
+      }
+      #uno{
+        width:20%;
+        height:20%;
+        display:inline-block;
+        text-align: center;
+        }
+    
+        #dos{
+          text-align: center;
+          display:inline-block;
+          
+        }
+        FOOTER{
+          border-top: outset rgb(235, 230, 230);
+        }
