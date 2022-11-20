@@ -5,58 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB ISSUU</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&family=Lato&family=Poppins&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-        <div id="arriba">
-        <div id="logo">
-        <img src="issuu.png" width="200px"> 
-         </div>
-         <div id="cabecera">
-        <p class="user">Already user?</p> 
-        <a href="https://issuu.com/signin" target="_blank" class="sign">Sign in</a>
-         </div>
-        </div>
-     </header>
-     <nav>
-        <h1>Create an Issuu Account</h1>
-        <button id="primer">
-            <img src="g.png" alt="foto de la g de Google" width="20px">
-            <a href="https://www.google.com/" target="_blank" class="g">sign in with Google</a>
-        </button>
-        <button id="segundo">
-            <img src="face.png" alt="foto de la f de Facebook" width="20px">
-            <a href="https://es-es.facebook.com/" target="_blank" class="face">sign in with Facebook</a>
-        </button>
-        
-    </nav>
-    <article>
-        <p class="or">Or sign in with email.</p>
-        <form action="/next-page" method="post">
-            <span>
-                    <label for="email"><strong>Email</strong></label><br>
-                    <input type="email" size="60" id="email" name="email" placeholder="ejemplo@gmail.com"> <br>
+<header>
+<div id="logo">
+    <img src="issuu.png" width="300px"> 
+</div>
+<div id="cabecera">
+    <p class="user">Already user?</p> 
+    <a href="https://issuu.com/signin" target="_blank" class="sign">Sign in</a>
+</div>
+</header>
+<main>
+    <h1>Create an Issuu Account</h1>
+<div class="cuentas">
+<button id="primer">
+    <img src="g.png" alt="foto de la g de Google" width="20px">
+    <a href="https://accounts.google.com/v3/signin/identifier?dsh=S117897643%3A1668875302240363&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=es&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAtEwuWXoYbKdE6DKSwPBirAtQp6w3DndeI33h5pdepLoW2284sfa_5I3MaKmyW6cCKFml2h" target="_blank" class="g"> Sign in with Google</a>
+</button>
+<button id="segundo">
+    <img src="face.png" alt="foto de la f de Facebook" width="20px">
+    <a href="https://es-es.facebook.com/" target="_blank" class="face"> Continue with Facebook</a>
+</button>
+</div>
+<p>Or with email.</p>
+<form action="/next-page" method="post">
+    <span>
+    <label for="email"><strong>Email</strong></label><br>
+    <input type="email" size="85" id="email" name="email"> <br>
                  
-                    <label for="pwd"><strong>Password</strong></label><br>
-                    <input type="Password" size="60" id="pwd" name="password" placeholder="98eJeMPlo6"> <br>
+    <label for="pwd"><strong>Password</strong></label><br>
+    <input type="Password" size="85" id="pwd" name="password"> <br>
                  
-                 <input type="checkbox" id="accept" name="aceptar">
-                 <label for="accept">I accept the <a href="https://issuu.com/legal/terms" target="_blank" class="terms">Terms of Service</a> and <a href="https://issuu.com/legal/privacy" target="_blank" class="profe">Professional Terms of Service.</a></label>  
-                  </span>
-            
-          </form>
-          <div id="create">CREATE ACCOUNT</div>
-     </article>
-     
-     <footer>
-        <div id="pie">
-        <div id="uno">
-            <p>Issuu Inc.</p>
-        </div>
-        <div id="dos">
-            <p>Terms Privacy DMCA</p>
-        </div>
-    </div>
-    </footer>
+    <input type="checkbox" id="accept" name="aceptar">
+    <label for="accept">I accept the <a href="https://issuu.com/legal/terms" target="_blank" class="terms">Terms of Service</a> and <a href="https://issuu.com/legal/privacy" target="_blank" class="profe">Professional Terms of Service.</a></label>  
+    </span>
+</form>
+<div id="create">CREATE ACCOUNT</div>
+</main>
+<footer>
+<div class="uno">Issuu Inc.</div>
+<div class="dos">Terms</div>
+<div class="tres">Privacy</div>
+<div class="cuatro">DMCA</div>      
+</footer>
 </body>
 </html>
