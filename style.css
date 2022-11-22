@@ -72,6 +72,21 @@ main{
   text-decoration: none;
   color:#4484f3; 
 }
+.form-check{
+  display:flex;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-right: 10px;
+  align-items: center;
+}
+.form-check-label{
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+input[type="checkbox"] + label {
+ margin-left: 5px;
+}
 #create{
   display: flex;
   width:200px;
@@ -89,11 +104,11 @@ footer{
   height: 5px;
   display: flex;
   align-items:inherit;
-  margin-left: 50px;
+  padding-left: 50px;
   border-top: outset rgb(235, 230, 230);
 }
 span{
-  font-size: 18px;
+  font-size: 15px;
   line-height: 2em;
 }
 .uno, .dos, .tres, .cuatro{
